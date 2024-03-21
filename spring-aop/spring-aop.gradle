@@ -7,6 +7,7 @@ dependencies {
 	api(project(":spring-core"))
 	optional("org.apache.commons:commons-pool2")
 	optional("org.aspectj:aspectjweaver")
+	optional(project(":spring-web"))
 	optional("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	testFixturesImplementation(testFixtures(project(":spring-beans")))
 	testFixturesImplementation(testFixtures(project(":spring-core")))
